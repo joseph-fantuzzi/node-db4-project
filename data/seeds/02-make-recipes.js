@@ -1,20 +1,16 @@
 const recipes = [
   {
-    recipe_name: "White Wine Lemon Tilapia",
+    recipe_name: "Lemon Tilapia",
   },
   {
     recipe_name: "Butter Crusted Chicken Piccata",
   },
   {
-    recipe_name: "Roasted Garlic Cream Penne alla Vodka ",
+    recipe_name: "Creamy Penne alla Vodka ",
   },
 ];
 
 const ingredients = [
-  {
-    ingredient_name: "White Wine",
-    ingredient_unit: "ounces",
-  },
   {
     ingredient_name: "Lemon",
     ingredient_unit: "slices",
@@ -22,10 +18,6 @@ const ingredients = [
   {
     ingredient_name: "Tilapia",
     ingredient_unit: "pounds",
-  },
-  {
-    ingredient_name: "Butter",
-    ingredient_unit: "ounces",
   },
   {
     ingredient_name: "Chicken",
@@ -36,20 +28,12 @@ const ingredients = [
     ingredient_unit: "tablespoon",
   },
   {
-    ingredient_name: "Garlic",
-    ingredient_unit: "tablespoon",
-  },
-  {
     ingredient_name: "Heavy Cream",
     ingredient_unit: "ounces",
   },
   {
     ingredient_name: "Penne Pasta",
     ingredient_unit: "pounds",
-  },
-  {
-    ingredient_name: "Vodka",
-    ingredient_unit: "ounces",
   },
 ];
 
@@ -61,7 +45,7 @@ const steps = [
   },
   {
     step_order: 2,
-    step_text: "Add white wine and lemon",
+    step_text: "Add lemon",
     recipe_id: 1,
   },
   {
@@ -90,15 +74,15 @@ const step_ingredients = [
   {
     step_id: 2,
     ingredient_id: 1,
-    quantity: 16,
-  },
-  {
-    step_id: 2,
-    ingredient_id: 2,
-    quantity: 4,
+    quantity: 1,
   },
   {
     step_id: 1,
+    ingredient_id: 2,
+    quantity: 1,
+  },
+  {
+    step_id: 3,
     ingredient_id: 3,
     quantity: 1,
   },
@@ -108,34 +92,14 @@ const step_ingredients = [
     quantity: 6,
   },
   {
-    step_id: 3,
+    step_id: 6,
     ingredient_id: 5,
     quantity: 2,
   },
   {
-    step_id: 4,
+    step_id: 5,
     ingredient_id: 6,
     quantity: 2,
-  },
-  {
-    step_id: 4,
-    ingredient_id: 7,
-    quantity: 1,
-  },
-  {
-    step_id: 6,
-    ingredient_id: 8,
-    quantity: 10,
-  },
-  {
-    step_id: 5,
-    ingredient_id: 9,
-    quantity: 2,
-  },
-  {
-    step_id: 6,
-    ingredient_id: 10,
-    quantity: 12,
   },
 ];
 
